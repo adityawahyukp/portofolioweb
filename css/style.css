@@ -1,0 +1,157 @@
+*{
+    padding: 0;
+    margin: 0;
+    font-family: 'Quicksand', sans-serif;
+    color: whitesmoke;
+}
+.profile,
+#portofolio,
+#saran{
+    background-color: beige;
+}
+#about,
+#skill{
+    background-color: rgb(209, 209, 189);
+}
+#header{
+    background-color: #C9AD7F;
+}
+#contact{
+    background-color: rgb(61, 61, 61);;
+}
+header{
+    height: 80px;
+    position: sticky;
+    top: 0;
+}
+header h1{
+    display: inline-block;
+    float: left;
+    padding: 20px 25px;
+    text-transform: uppercase;
+}
+header h1 a{
+    transition: .3s;
+}
+header h1 a:hover{
+    color: black;
+}
+header ul{
+    float: right;
+}
+header ul li{
+    padding: 30px;
+    display: inline-block;
+}
+header ul li a{
+    transition: .3s;
+}
+header ul li a:hover{
+    color: black;
+}
+a{
+    text-decoration: none;
+}
+section{
+    padding: 80px 0;
+}
+#profiles{
+    padding: 140px 0;
+}
+.profile h1,
+.profile p{
+    color: black;
+}
+.container{
+    width: 95%;
+    margin: 0 auto;
+}
+.container::after{
+    content: '';
+    display: block;
+    clear: both;
+}
+.profile img{
+    width: 250px;
+    height: 250px;
+    margin-left: 50px;
+    border-radius: 50%;
+    float: left;
+    margin-right: 50px;
+}
+.profile h1{
+    margin-bottom: 18px;
+}
+.profile p{
+    font-size: 28px;
+}
+.profile-text{
+    padding-top: 60px;
+}
+section h2{
+    color: black;
+    position: relative;
+    text-align: center;
+    padding-bottom: 20px;
+    margin: 20px;
+}
+#about p{
+    text-align: justify;
+    text-indent: 30px;
+    line-height: 25px;
+    margin-bottom: 15px;
+    color: black;
+}
+.col-4{
+    width: 30%;
+    box-sizing: border-box;
+    padding: 20px;
+    margin-left: 33px;
+    float: left;
+    text-align: center;
+    margin-bottom: 15pxpx;
+}
+.col-4 img{
+    width: 100%;
+}
+.col-4 a:hover img{
+    transform: scale(1.5);
+}
+
+
+
+#contact{
+    padding-top: 10px;
+}
+#contact h2{
+    color: white;
+}
+input{
+    width: 35%;
+    height: 150px;
+    color: black;
+}
+button{
+    width: 70px;
+    height: 30px;
+    text-align: center;
+    color: black;
+    background-color: silver;
+    border-radius: 5px;
+}
+.kolom-komentar{
+    display: flex;
+    margin-left: 10px;
+}
+footer{
+    background-color: rgb(32, 32, 32);
+    padding: 40px;
+    text-align: right;
+}
+footer small{
+    color: white;
+    font-size: 75%;
+}
+html{
+    scroll-behavior: smooth;
+}
