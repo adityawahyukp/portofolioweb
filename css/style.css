@@ -20,14 +20,18 @@
     background-color: rgb(61, 61, 61);;
 }
 header{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
     height: 80px;
     position: sticky;
     top: 0;
+    z-index: 1;
 }
 header h1{
     display: inline-block;
     float: left;
-    padding: 20px 25px;
+    padding: 10px 25px;
     text-transform: uppercase;
 }
 header h1 a{
@@ -40,7 +44,7 @@ header ul{
     float: right;
 }
 header ul li{
-    padding: 30px;
+    padding: 25px;
     display: inline-block;
 }
 header ul li a{
@@ -117,17 +121,20 @@ section h2{
 .col-4 a:hover img{
     transform: scale(1.5);
 }
-
-
-
 #contact{
     padding-top: 10px;
 }
 #contact h2{
     color: white;
 }
+.kirikanan{
+    display: flex;
+}
+.masukan{
+    width: 50%;
+}
 input{
-    width: 35%;
+    width: 70%;
     height: 150px;
     color: black;
 }
@@ -139,9 +146,14 @@ button{
     background-color: silver;
     border-radius: 5px;
 }
-.kolom-komentar{
-    display: flex;
-    margin-left: 10px;
+#kolom-komen{
+    margin-left: 20px;
+    padding: 10px;
+    width: 40%;
+    height: 140px;
+}
+#kolom-komen p{
+    color: black;
 }
 footer{
     background-color: rgb(32, 32, 32);
@@ -151,6 +163,46 @@ footer{
 footer small{
     color: white;
     font-size: 75%;
+}
+#skill .bar{
+    height: 30px;
+    background-color: #fff;
+    border: 1px solid #ddd;
+    margin: 5px 0 20px 0;
+}
+.bar .nilai{
+    height: 30px;
+    background-color: #C9AD7F;
+    display: inline-block;
+    color: black;
+    text-align: center;
+}
+h3{
+    color: black;
+}
+.ai{
+    width: 80%;
+}
+.html{
+    width: 65%;
+}
+.css{
+    width: 50%;
+}
+.komunikasi{
+    width: 85%;
+}
+.col-3 {
+	width:33.33%;
+	box-sizing: border-box;
+	float: left;
+	text-align: center;
+	padding:50px 10px;
+}
+.col-3 h4 {
+	padding-bottom: 10px;
+	border-bottom: 1px solid #ddd;
+	margin-bottom: 15px;
 }
 html{
     scroll-behavior: smooth;
