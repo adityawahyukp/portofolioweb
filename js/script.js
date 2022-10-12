@@ -5,3 +5,4 @@ function nambahKomen(){
     document.getElementById("kolom-komen").innerHTML += `<p>${komen}</p>`
 
     document.getElementById("kolom-komen").style.backgroundColor = "White"
+}
